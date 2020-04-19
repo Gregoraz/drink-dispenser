@@ -3,7 +3,6 @@
 namespace App\Drink;
 
 use App\Logger\EchoLogger;
-use DrinkInterface;
 
 abstract class DrinkAbstract implements DrinkInterface
 {
@@ -80,5 +79,4 @@ abstract class DrinkAbstract implements DrinkInterface
     {
         return $this->logger;
     }
-
 }
