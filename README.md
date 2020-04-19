@@ -38,8 +38,8 @@ sucht nach den Klassen und erstellt automatisch Objekte daraus. Danach füllt es
 
 Um Anfangswerte zu ändern, müssen wir diese Konstanten bearbeiten:
 ```
-const INITIAL_CAPACITY = 5000;
-const TAP_VALUE = 50; 
+const INITIAL_CAPACITY = 500;
+const TAP_VALUE = 105; 
 const RUN_AUTOMATE_REFILLING = true;
 const RUN_CUSTOM_REFILLING = true;
 ```
