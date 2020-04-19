@@ -9,8 +9,8 @@ use App\Exception\DrinkIsInvalidException;
 class Board
 {
     const DRINK_FOLDER = __DIR__ . '/../Drink/Drinks';
-    const INITIAL_CAPACITY = 5000;
-    const TAP_VALUE = 50;
+    const INITIAL_CAPACITY = 500;
+    const TAP_VALUE = 105;
     const RUN_AUTOMATE_REFILLING = true;
     const RUN_CUSTOM_REFILLING = true;
 
